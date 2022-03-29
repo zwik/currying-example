@@ -1,0 +1,31 @@
+{
+  "name": "curry",
+  "version": "1.0.0",
+  "description": "Simple currying example",
+  "main": "curry.js",
+  "scripts": {
+    "lint:js": "eslint curry.js curry.spec.js",
+    "lint:ts": "eslint curryts.ts curryts.spec.ts",
+    "test": "jest"
+  },
+  "keywords": ["currying", "curry", "javascript", "typescript", "example"],
+  "author": {
+    "name": "Marcel van den Bosch",
+    "email": "m.v.d.bosch@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.4",
+    "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}
