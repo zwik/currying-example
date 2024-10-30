@@ -1,4 +1,4 @@
-import { greetDeeplyCurried, es6GreetDeeplyCurried } from './curryts';
+import { greetDeeplyCurried, es6GreetDeeplyCurried } from './curryts.ts';
 
 describe('curry.js', () => {
   it('should print the correct output with old notation', () => {
